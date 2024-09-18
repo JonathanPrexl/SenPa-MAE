@@ -1,0 +1,108 @@
+# This supresses the output folder
+# that otherwise is automaticly generated
+# by hydra
+defaults:  
+  - _self_  
+  - override hydra/hydra_logging: disabled  
+  - override hydra/job_logging: disabled  
+
+hydra:  
+  output_subdir: null  
+  run:  
+    dir: .
+
+gpu_idx: 1
+seed: 42
+nEpochs: 800
+compile: False
+
+outputpath: "/home/user/results/senpamae"
+experimentname: "debug1"
+resume: False
+resumeCheckpoint: ""
+
+trainroutine:
+  _target_: "train.SenPaMAE_Trainer" # its not yet implementd rather hardcoded
+  _partial_: true
+
+loss:
+  _target_: "torch.nn.MSELoss"
+
+model:
+  _target_: "model.SenPaMAE"
+  encoder:
+    _target_: "model.Encoder"
+    image_size: 144
+    num_channels: ${dataset.numChannels}
+    patch_size: 16
+    emb_dim: 768
+    num_layer: 12
+    num_head: 12
+    sensor_parameter_embedding_active: False
+    channels_seperate_tokens: True
+    positional_embedding_3D: True
+    maskingfunction: 
+      _target_: "maskingfunction.PatchShuffle"
+      maskingStategy: "random"
+      masking_ratio: 66
+      image_size: ${model.encoder.image_size}
+      num_channels: ${model.encoder.num_channels}
+      patch_size: ${model.encoder.patch_size}
+  decoder:
+    _target_: "model.Decoder"
+    image_size: ${model.encoder.image_size}
+    num_channels: ${model.encoder.num_channels}
+    patch_size: ${model.encoder.patch_size}
+    emb_dim: ${model.encoder.emb_dim}
+    channels_seperate_tokens: ${model.encoder.channels_seperate_tokens}
+    positional_embedding_3D: ${model.encoder.positional_embedding_3D}
+    num_layer: 3
+    sensor_parameter_embedding_active: ${model.encoder.sensor_parameter_embedding_active}
+    num_head: ${model.encoder.num_head}
+
+optimizer:
+  _target_: "torch.optim.Adam"
+  lr: 1e-4
+  base_learning_rate: 1e-4
+  weight_decay: 0.05
+
+scheduler:
+  warmup_epoch: 3
+
+dataset: 
+  _target_: "dataloader.Sentinel2_SuperDove_Landsat"
+  topdir_dataset: "/home/user/data/s2_ps_ls_dataset_h5py/patches"
+  locs_responsefunctions: "./responsefunctions"
+  pixelSpacing: "5mPxSp"
+  patchSize: 720 # meter of the patch (720m x 720m) with 5m GSD is 144x144 pixels
+  numChannels: 4
+  downsampleProb: 0.33
+  channelMixingProb: 0.33
+  channelMixingMaxChannel: 3
+  rois_val: ["11_colone_09_2023","05_balimore_04_2023"]
+  rois_test: [] 
+  include_s2: True
+  include_sd: True
+  include_ls: True
+  train_val_test_key: "train"
+  fileformat: "hdf5"
+
+dataloader:
+  _target_: "torch.utils.data.DataLoader"
+  shuffle: True
+  batch_size: 16
+  num_workers: 20
+  pin_memory: True
+  persistent_workers: True
+  prefetch_factor: 5
+  drop_last: True
+  
+batchsampler:
+  _target_: torch.utils.data.sampler.WeightedRandomSampler
+
+restrict_train_data: -1
+restrict_val_data: -1
+validation_every_N_sampels: -1
+validate_after_every_n_epoch: -1
+plotting_every_N_sampels: 1200000
+special_save_nEpoch: [50,100,200,300,400]

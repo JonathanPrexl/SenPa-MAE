@@ -1,0 +1,552 @@
+{
+    "ROI_0": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20230913T083601_N0509_R064_T37UDB_20230913T130804.SAFE"
+        ],
+        "SuperDove": [
+            "20230913_074044_65_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20230913_082218_40_2416_3B_AnalyticMS_SR_8b.tif",
+            "20230913_074615_27_24ca_3B_AnalyticMS_SR_8b.tif",
+            "20230913_074035_45_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20230913_082220_51_2416_3B_AnalyticMS_SR_8b.tif",
+            "20230913_074612_97_24ca_3B_AnalyticMS_SR_8b.tif",
+            "20230913_074617_57_24ca_3B_AnalyticMS_SR_8b.tif",
+            "20230913_074619_86_24ca_3B_AnalyticMS_SR_8b.tif",
+            "20230913_082216_29_2416_3B_AnalyticMS_SR_8b.tif",
+            "20230913_074040_05_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20230913_074553_57_2464_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC08_L2SP_178021_20230914_20230919_02_T1"
+        ]
+    },
+    "ROI_1": {
+        "Sentinel2": [
+            "S2B_MSIL2A_20240204T155449_N0510_R054_T18TWL_20240204T200249.SAFE"
+        ],
+        "SuperDove": [
+            "20240204_145925_91_24b5_3B_AnalyticMS_SR_8b.tif",
+            "20240204_154555_09_2479_3B_AnalyticMS_SR_8b.tif",
+            "20240204_154557_06_2479_3B_AnalyticMS_SR_8b.tif",
+            "20240204_154559_02_2479_3B_AnalyticMS_SR_8b.tif",
+            "20240204_154549_20_2479_3B_AnalyticMS_SR_8b.tif",
+            "20240204_150022_81_24c4_3B_AnalyticMS_SR_8b.tif",
+            "20240204_154545_27_2479_3B_AnalyticMS_SR_8b.tif",
+            "20240204_154538_67_2438_3B_AnalyticMS_SR_8b.tif",
+            "20240204_150027_19_24c4_3B_AnalyticMS_SR_8b.tif",
+            "20240204_145843_81_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20240204_154542_61_2438_3B_AnalyticMS_SR_8b.tif",
+            "20240204_145928_11_24b5_3B_AnalyticMS_SR_8b.tif",
+            "20240204_145923_70_24b5_3B_AnalyticMS_SR_8b.tif",
+            "20240204_145914_89_24b5_3B_AnalyticMS_SR_8b.tif",
+            "20240204_150018_43_24c4_3B_AnalyticMS_SR_8b.tif",
+            "20240204_154534_72_2438_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC08_L2SP_014032_20231120_20231128_02_T1"
+        ]
+    },
+    "ROI_2": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20230810T071621_N0509_R006_T39SWV_20230810T103905.SAFE"
+        ],
+        "SuperDove": [
+            "20230810_062822_75_24a7_3B_AnalyticMS_SR_8b.tif",
+            "20230810_062952_36_24ba_3B_AnalyticMS_SR_8b.tif",
+            "20230810_062827_30_24a7_3B_AnalyticMS_SR_8b.tif",
+            "20230810_062945_58_24ba_3B_AnalyticMS_SR_8b.tif",
+            "20230810_062311_83_2449_3B_AnalyticMS_SR_8b.tif",
+            "20230810_062825_03_24a7_3B_AnalyticMS_SR_8b.tif",
+            "20230810_062947_84_24ba_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_165035_20231029_20231030_02_T1"
+        ]
+    },
+    "ROI_3": {
+        "Sentinel2": [
+            "S2B_MSIL2A_20230410T154819_N0509_R054_T18SUJ_20230410T202300.SAFE"
+        ],
+        "SuperDove": [
+            "20230410_153329_74_2485_3B_AnalyticMS_SR_8b.tif",
+            "20230410_153338_39_2485_3B_AnalyticMS_SR_8b.tif",
+            "20230410_153334_06_2485_3B_AnalyticMS_SR_8b.tif",
+            "20230410_153331_90_2485_3B_AnalyticMS_SR_8b.tif",
+            "20230410_153351_08_247d_3B_AnalyticMS_SR_8b.tif",
+            "20230410_153346_70_247d_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC08_L2SP_015033_20231010_20231017_02_T1"
+        ]
+    },
+    "ROI_4": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20231006T052701_N0509_R105_T43RGM_20231006T093356.SAFE"
+        ],
+        "SuperDove": [
+            "20231006_052112_75_249c_3B_AnalyticMS_SR_8b.tif",
+            "20231006_052110_68_249c_3B_AnalyticMS_SR_8b.tif",
+            "20231006_043941_91_24b2_3B_AnalyticMS_SR_8b.tif",
+            "20231006_052106_56_249c_3B_AnalyticMS_SR_8b.tif",
+            "20231006_043948_88_24b2_3B_AnalyticMS_SR_8b.tif",
+            "20231006_043912_85_24c0_3B_AnalyticMS_SR_8b.tif",
+            "20231006_052108_62_249c_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC08_L2SP_146040_20231117_20231122_02_T1"
+        ]
+    },
+    "ROI_5": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20231031T025831_N0509_R032_T49QGF_20231031T061054.SAFE"
+        ],
+        "SuperDove": [
+            "20231031_025434_41_247b_3B_AnalyticMS_SR_8b.tif",
+            "20231031_025430_31_247b_3B_AnalyticMS_SR_8b.tif",
+            "20231031_025326_01_2495_3B_AnalyticMS_SR_8b.tif",
+            "20231031_025317_68_2495_3B_AnalyticMS_SR_8b.tif",
+            "20231031_025313_52_2495_3B_AnalyticMS_SR_8b.tif",
+            "20231031_025432_36_247b_3B_AnalyticMS_SR_8b.tif",
+            "20231031_021204_92_2440_3B_AnalyticMS_SR_8b.tif",
+            "20231031_025321_85_2495_3B_AnalyticMS_SR_8b.tif",
+            "20231031_025428_26_247b_3B_AnalyticMS_SR_8b.tif",
+            "20231031_020919_49_2451_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC08_L2SP_122044_20231125_20231129_02_T1"
+        ]
+    },
+    "ROI_6": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20230201T021921_N0509_R003_T51PTS_20230201T052000.SAFE"
+        ],
+        "SuperDove": [
+            "20230201_020515_75_2498_3B_AnalyticMS_SR_8b.tif",
+            "20230201_020522_65_2498_3B_AnalyticMS_SR_8b.tif",
+            "20230201_015257_14_225a_3B_AnalyticMS_SR_8b.tif",
+            "20230201_020524_95_2498_3B_AnalyticMS_SR_8b.tif",
+            "20230201_020633_71_2480_3B_AnalyticMS_SR_8b.tif",
+            "20230201_020518_05_2498_3B_AnalyticMS_SR_8b.tif",
+            "20230201_020629_07_2480_3B_AnalyticMS_SR_8b.tif",
+            "20230201_015301_50_225a_3B_AnalyticMS_SR_8b.tif",
+            "20230201_020520_35_2498_3B_AnalyticMS_SR_8b.tif",
+            "20230201_020631_39_2480_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_116050_20230312_20230314_02_T1"
+        ]
+    },
+    "ROI_7": {
+        "Sentinel2": [
+            "S2B_MSIL2A_20230606T103629_N0509_R008_T32VNM_20230606T121204.SAFE"
+        ],
+        "SuperDove": [
+            "20230606_093028_98_2420_3B_AnalyticMS_SR_8b.tif",
+            "20230606_100359_58_2251_3B_AnalyticMS_SR_8b.tif",
+            "20230606_100401_60_2251_3B_AnalyticMS_SR_8b.tif",
+            "20230606_093035_40_2420_3B_AnalyticMS_SR_8b.tif",
+            "20230606_100357_56_2251_3B_AnalyticMS_SR_8b.tif",
+            "20230606_102116_55_2438_3B_AnalyticMS_SR_8b.tif",
+            "20230606_100403_62_2251_3B_AnalyticMS_SR_8b.tif",
+            "20230606_093026_84_2420_3B_AnalyticMS_SR_8b.tif",
+            "20230606_100405_64_2251_3B_AnalyticMS_SR_8b.tif",
+            "20230606_093031_12_2420_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC08_L2SP_197018_20230530_20230607_02_T1"
+        ]
+    },
+    "ROI_8": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20231223T013051_N0510_R074_T54SUE_20231223T041353.SAFE"
+        ],
+        "SuperDove": [
+            "20231223_004022_05_242e_3B_AnalyticMS_SR_8b.tif",
+            "20231223_004015_40_242e_3B_AnalyticMS_SR_8b.tif",
+            "20231223_003747_68_24c5_3B_AnalyticMS_SR_8b.tif",
+            "20231223_003743_26_24c5_3B_AnalyticMS_SR_8b.tif",
+            "20231223_004019_83_242e_3B_AnalyticMS_SR_8b.tif",
+            "20231223_003745_47_24c5_3B_AnalyticMS_SR_8b.tif",
+            "20231223_003749_89_24c5_3B_AnalyticMS_SR_8b.tif",
+            "20231223_012214_80_247f_3B_AnalyticMS_SR_8b.tif",
+            "20231223_012218_86_247f_3B_AnalyticMS_SR_8b.tif",
+            "20231223_012216_83_247f_3B_AnalyticMS_SR_8b.tif",
+            "20231223_003741_04_24c5_3B_AnalyticMS_SR_8b.tif",
+            "20231223_004017_61_242e_3B_AnalyticMS_SR_8b.tif",
+            "20231223_003738_83_24c5_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_107035_20231210_20231211_02_T1"
+        ]
+    },
+    "ROI_9": {
+        "Sentinel2": [
+            "S2B_MSIL2A_20230719T190919_N0509_R056_T10UDV_20230719T215051.SAFE"
+        ],
+        "SuperDove": [
+            "20230719_185302_11_2470_3B_AnalyticMS_SR_8b.tif",
+            "20230719_182528_50_24b5_3B_AnalyticMS_SR_8b.tif",
+            "20230719_185312_63_2470_3B_AnalyticMS_SR_8b.tif",
+            "20230719_182542_14_24b5_3B_AnalyticMS_SR_8b.tif",
+            "20230719_182535_32_24b5_3B_AnalyticMS_SR_8b.tif",
+            "20230719_185306_32_2470_3B_AnalyticMS_SR_8b.tif",
+            "20230719_185304_21_2470_3B_AnalyticMS_SR_8b.tif",
+            "20230719_185308_42_2470_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_047026_20230815_20230817_02_T1"
+        ]
+    },
+    "ROI_10": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20230219T002051_N0509_R116_T55HBU_20230219T033503.SAFE"
+        ],
+        "SuperDove": [
+            "20230219_235942_99_2483_3B_AnalyticMS_SR_8b.tif",
+            "20230219_235936_19_2483_3B_AnalyticMS_SR_8b.tif",
+            "20230219_231325_74_2445_3B_AnalyticMS_SR_8b.tif",
+            "20230219_231330_43_2445_3B_AnalyticMS_SR_8b.tif",
+            "20230219_231328_09_2445_3B_AnalyticMS_SR_8b.tif",
+            "20230219_001623_20_2405_3B_AnalyticMS_SR_8b.tif",
+            "20230219_235947_52_2483_3B_AnalyticMS_SR_8b.tif",
+            "20230219_001621_10_2405_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_093086_20230903_20230905_02_T1"
+        ]
+    },
+    "ROI_11": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20231005T105911_N0509_R094_T30TVK_20231005T183457.SAFE"
+        ],
+        "SuperDove": [
+            "20231005_101704_14_24c4_3B_AnalyticMS_SR_8b.tif",
+            "20231005_105322_81_2483_3B_AnalyticMS_SR_8b.tif",
+            "20231005_105327_01_2483_3B_AnalyticMS_SR_8b.tif",
+            "20231005_105324_91_2483_3B_AnalyticMS_SR_8b.tif",
+            "20231005_101706_44_24c4_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_201032_20231126_20231128_02_T1"
+        ]
+    },
+    "ROI_12": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20240125T082221_N0510_R121_T34HCH_20240125T122648.SAFE"
+        ],
+        "SuperDove": [
+            "20240125_084219_99_2488_3B_AnalyticMS_SR_8b.tif",
+            "20240125_083851_52_2416_3B_AnalyticMS_SR_8b.tif",
+            "20240125_083857_51_2416_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_175083_20231206_20231207_02_T1"
+        ]
+    },
+    "ROI_13": {
+        "Sentinel2": [
+            "S2B_MSIL2A_20230730T183929_N0509_R070_T12UUE_20230730T224825.SAFE"
+        ],
+        "SuperDove": [
+            "20230730_174655_71_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20230730_174641_88_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20230730_174650_97_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20230730_182426_74_24a4_3B_AnalyticMS_SR_8b.tif",
+            "20230730_174653_44_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20230730_182420_29_24a4_3B_AnalyticMS_SR_8b.tif",
+            "20230730_182431_04_24a4_3B_AnalyticMS_SR_8b.tif",
+            "20230730_182424_59_24a4_3B_AnalyticMS_SR_8b.tif",
+            "20230730_174646_43_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20230730_174644_15_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20230730_174426_55_24ca_3B_AnalyticMS_SR_8b.tif",
+            "20230730_174648_70_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20230730_174639_61_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20230730_174415_18_24ca_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC08_L2SP_042023_20230921_20230926_02_T1"
+        ]
+    },
+    "ROI_14": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20240207T051001_N0510_R019_T43PGN_20240207T085751.SAFE"
+        ],
+        "SuperDove": [
+            "20240207_051754_38_248b_3B_AnalyticMS_SR_8b.tif",
+            "20240207_051758_33_248b_3B_AnalyticMS_SR_8b.tif",
+            "20240207_051756_36_248b_3B_AnalyticMS_SR_8b.tif",
+            "20240207_051802_28_248b_3B_AnalyticMS_SR_8b.tif",
+            "20240207_043529_62_24c4_3B_AnalyticMS_SR_8b.tif",
+            "20240207_051752_41_248b_3B_AnalyticMS_SR_8b.tif",
+            "20240207_043527_44_24c4_3B_AnalyticMS_SR_8b.tif",
+            "20240207_043334_28_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20240207_043518_70_24c4_3B_AnalyticMS_SR_8b.tif",
+            "20240207_051804_25_248b_3B_AnalyticMS_SR_8b.tif",
+            "20240207_043323_33_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20240207_043520_89_24c4_3B_AnalyticMS_SR_8b.tif",
+            "20240207_043321_14_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20240207_051806_22_248b_3B_AnalyticMS_SR_8b.tif",
+            "20240207_043531_80_24c4_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_144052_20230417_20230419_02_T1"
+        ]
+    },
+    "ROI_15": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20230528T023531_N0509_R089_T51RTQ_20230528T073159.SAFE"
+        ],
+        "SuperDove": [
+            "20230528_014713_83_24a1_3B_AnalyticMS_SR_8b.tif",
+            "20230528_014718_45_24a1_3B_AnalyticMS_SR_8b.tif",
+            "20230528_014711_52_24a1_3B_AnalyticMS_SR_8b.tif",
+            "20230528_014105_02_2460_3B_AnalyticMS_SR_8b.tif",
+            "20230528_014709_21_24a1_3B_AnalyticMS_SR_8b.tif",
+            "20230528_014102_90_2460_3B_AnalyticMS_SR_8b.tif",
+            "20230528_022418_13_2475_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC08_L2SP_119039_20231222_20240103_02_T1"
+        ]
+    },
+    "ROI_16": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20230604T104621_N0509_R051_T31UDQ_20230604T165401.SAFE"
+        ],
+        "SuperDove": [
+            "20230604_095213_96_2415_3B_AnalyticMS_SR_8b.tif",
+            "20230604_103337_80_2486_3B_AnalyticMS_SR_8b.tif",
+            "20230604_095758_04_24c9_3B_AnalyticMS_SR_8b.tif",
+            "20230604_095102_36_241e_3B_AnalyticMS_SR_8b.tif",
+            "20230604_095751_17_24c9_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_199026_20230909_20230911_02_T1"
+        ]
+    },
+    "ROI_17": {
+        "Sentinel2": [
+            "S2B_MSIL2A_20231114T134709_N0509_R024_T21HUB_20231114T175627.SAFE"
+        ],
+        "SuperDove": [
+            "20231114_130647_64_24b2_3B_AnalyticMS_SR_8b.tif",
+            "20231114_141419_23_2402_3B_AnalyticMS_SR_8b.tif",
+            "20231114_130645_40_24b2_3B_AnalyticMS_SR_8b.tif",
+            "20231114_130705_21_24c2_3B_AnalyticMS_SR_8b.tif",
+            "20231114_130643_16_24b2_3B_AnalyticMS_SR_8b.tif",
+            "20231114_130649_88_24b2_3B_AnalyticMS_SR_8b.tif",
+            "20231114_141424_69_2402_3B_AnalyticMS_SR_8b.tif",
+            "20231114_141415_59_2402_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_225084_20231118_20231119_02_T1"
+        ]
+    },
+    "ROI_18": {
+        "Sentinel2": [
+            "S2B_MSIL2A_20240123T152649_N0510_R025_T18NWL_20240123T192640.SAFE"
+        ],
+        "SuperDove": [
+            "20240123_152014_36_2482_3B_AnalyticMS_SR_8b.tif",
+            "20240123_152152_07_2477_3B_AnalyticMS_SR_8b.tif",
+            "20240123_152150_09_2477_3B_AnalyticMS_SR_8b.tif",
+            "20240123_152008_47_2482_3B_AnalyticMS_SR_8b.tif",
+            "20240123_152148_11_2477_3B_AnalyticMS_SR_8b.tif",
+            "20240123_152034_01_2482_3B_AnalyticMS_SR_8b.tif",
+            "20240123_152146_13_2477_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC08_L2SP_008057_20231212_20231215_02_T1"
+        ]
+    },
+    "ROI_19": {
+        "Sentinel2": [
+            "S2B_MSIL2A_20231117T170559_N0509_R069_T14QMG_20231117T202721.SAFE"
+        ],
+        "SuperDove": [
+            "20231117_170216_05_2424_3B_AnalyticMS_SR_8b.tif",
+            "20231117_170224_14_2424_3B_AnalyticMS_SR_8b.tif",
+            "20231117_170737_96_2482_3B_AnalyticMS_SR_8b.tif",
+            "20231117_170205_50_248b_3B_AnalyticMS_SR_8b.tif",
+            "20231117_170157_31_248b_3B_AnalyticMS_SR_8b.tif",
+            "20231117_170740_01_2482_3B_AnalyticMS_SR_8b.tif",
+            "20231117_170220_09_2424_3B_AnalyticMS_SR_8b.tif",
+            "20231117_170226_16_2424_3B_AnalyticMS_SR_8b.tif",
+            "20231117_170155_26_248b_3B_AnalyticMS_SR_8b.tif",
+            "20231117_170159_35_248b_3B_AnalyticMS_SR_8b.tif",
+            "20231117_170201_40_248b_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_026047_20231116_20231117_02_T1"
+        ]
+    },
+    "ROI_20": {
+        "Sentinel2": [
+            "S2B_MSIL2A_20231114T183629_N0509_R027_T11SMT_20231114T204638.SAFE"
+        ],
+        "SuperDove": [
+            "20231114_174602_95_24a7_3B_AnalyticMS_SR_8b.tif",
+            "20231114_174232_23_2429_3B_AnalyticMS_SR_8b.tif",
+            "20231114_174425_96_24b5_3B_AnalyticMS_SR_8b.tif",
+            "20231114_174600_70_24a7_3B_AnalyticMS_SR_8b.tif",
+            "20231114_174607_45_24a7_3B_AnalyticMS_SR_8b.tif",
+            "20231114_174605_20_24a7_3B_AnalyticMS_SR_8b.tif",
+            "20231114_174556_20_24a7_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_041036_20231125_20231128_02_T1"
+        ]
+    },
+    "ROI_21": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20230913T083601_N0509_R064_T36TVK_20230913T130804.SAFE"
+        ],
+        "SuperDove": [
+            "20230913_082554_33_2481_3B_AnalyticMS_SR_8b.tif",
+            "20230913_082600_67_2481_3B_AnalyticMS_SR_8b.tif",
+            "20230913_082622_93_2416_3B_AnalyticMS_SR_8b.tif",
+            "20230913_075021_08_24ca_3B_AnalyticMS_SR_8b.tif",
+            "20230913_082558_56_2481_3B_AnalyticMS_SR_8b.tif",
+            "20230913_082556_45_2481_3B_AnalyticMS_SR_8b.tif",
+            "20230913_082612_39_2416_3B_AnalyticMS_SR_8b.tif",
+            "20230913_075018_78_24ca_3B_AnalyticMS_SR_8b.tif",
+            "20230913_082614_49_2416_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_177032_20230830_20230901_02_T1"
+        ]
+    },
+    "ROI_22": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20230118T074231_N0509_R092_T37MBU_20230118T111150.SAFE"
+        ],
+        "SuperDove": [
+            "20230118_074721_90_2405_3B_AnalyticMS_SR_8b.tif",
+            "20230118_074715_32_2405_3B_AnalyticMS_SR_8b.tif",
+            "20230118_074713_12_2405_3B_AnalyticMS_SR_8b.tif",
+            "20230118_073214_09_2499_3B_AnalyticMS_SR_8b.tif",
+            "20230118_073218_73_2499_3B_AnalyticMS_SR_8b.tif",
+            "20230118_074717_51_2405_3B_AnalyticMS_SR_8b.tif",
+            "20230118_073211_77_2499_3B_AnalyticMS_SR_8b.tif",
+            "20230118_073209_45_2499_3B_AnalyticMS_SR_8b.tif",
+            "20230118_073216_41_2499_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC08_L2SP_168061_20230212_20230218_02_T1"
+        ]
+    },
+    "ROI_23": {
+        "Sentinel2": [
+            "S2B_MSIL2A_20230521T033539_N0509_R061_T47PPR_20230521T065157.SAFE"
+        ],
+        "SuperDove": [
+            "20230521_024757_74_2420_3B_AnalyticMS_SR_8b.tif",
+            "20230521_024759_88_2420_3B_AnalyticMS_SR_8b.tif",
+            "20230521_033159_78_2478_3B_AnalyticMS_SR_8b.tif",
+            "20230521_033210_63_2478_3B_AnalyticMS_SR_8b.tif",
+            "20230521_024804_16_2420_3B_AnalyticMS_SR_8b.tif",
+            "20230521_033208_46_2478_3B_AnalyticMS_SR_8b.tif",
+            "20230521_024802_02_2420_3B_AnalyticMS_SR_8b.tif",
+            "20230521_024755_60_2420_3B_AnalyticMS_SR_8b.tif",
+            "20230521_033204_12_2478_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_129050_20231220_20231222_02_T1"
+        ]
+    },
+    "ROI_24": {
+        "Sentinel2": [
+            "S2B_MSIL2A_20230717T082609_N0509_R021_T36RUU_20230717T103859.SAFE"
+        ],
+        "SuperDove": [
+            "20230717_081806_39_247c_3B_AnalyticMS_SR_8b.tif",
+            "20230717_081758_00_247c_3B_AnalyticMS_SR_8b.tif",
+            "20230717_073938_05_2464_3B_AnalyticMS_SR_8b.tif",
+            "20230717_081755_91_247c_3B_AnalyticMS_SR_8b.tif",
+            "20230717_081802_20_247c_3B_AnalyticMS_SR_8b.tif",
+            "20230717_073940_17_2464_3B_AnalyticMS_SR_8b.tif",
+            "20230717_073935_94_2464_3B_AnalyticMS_SR_8b.tif",
+            "20230717_081804_30_247c_3B_AnalyticMS_SR_8b.tif",
+            "20230717_081800_10_247c_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC08_L2SP_176039_20231103_20231110_02_T1"
+        ]
+    },
+    "ROI_25": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20240128T101301_N0510_R022_T32UQU_20240128T121856.SAFE"
+        ],
+        "SuperDove": [
+            "20240128_091402_49_2447_3B_AnalyticMS_SR_8b.tif",
+            "20240128_092443_51_2464_3B_AnalyticMS_SR_8b.tif",
+            "20240128_101536_69_24d7_3B_AnalyticMS_SR_8b.tif",
+            "20240128_092452_21_2464_3B_AnalyticMS_SR_8b.tif",
+            "20240128_101529_60_24d7_3B_AnalyticMS_SR_8b.tif",
+            "20240128_091352_60_2447_3B_AnalyticMS_SR_8b.tif",
+            "20240128_091354_58_2447_3B_AnalyticMS_SR_8b.tif",
+            "20240128_101534_33_24d7_3B_AnalyticMS_SR_8b.tif",
+            "20240128_092447_86_2464_3B_AnalyticMS_SR_8b.tif",
+            "20240128_092447_86_2464_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_192027_20240130_20240131_02_T1"
+        ]
+    },
+    "ROI_26": {
+        "Sentinel2": [
+            "S2B_MSIL2A_20230804T131249_N0509_R138_T23KLQ_20230804T164923.SAFE"
+        ],
+        "SuperDove": [
+            "20230804_122712_09_2421_3B_AnalyticMS_SR_8b.tif",
+            "20230804_122516_65_24bb_3B_AnalyticMS_SR_8b.tif",
+            "20230804_130152_39_2498_3B_AnalyticMS_SR_8b.tif",
+            "20230804_122521_20_24bb_3B_AnalyticMS_SR_8b.tif",
+            "20230804_130205_45_2498_3B_AnalyticMS_SR_8b.tif",
+            "20230804_130156_74_2498_3B_AnalyticMS_SR_8b.tif",
+            "20230804_130154_76_2479_3B_AnalyticMS_SR_8b.tif",
+            "20230804_130201_09_2498_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC09_L2SP_219076_20231108_20231129_02_T1"
+        ]
+    },
+    "ROI_27": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20240126T111331_N0510_R137_T30UXC_20240126T151750.SAFE"
+        ],
+        "SuperDove": [
+            "20240126_101617_92_242b_3B_AnalyticMS_SR_8b.tif",
+            "20240126_101615_93_242b_3B_AnalyticMS_SR_8b.tif",
+            "20240126_101913_99_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20240126_110412_65_247b_3B_AnalyticMS_SR_8b.tif",
+            "20240126_110440_96_248f_3B_AnalyticMS_SR_8b.tif",
+            "20240126_110416_59_247b_3B_AnalyticMS_SR_8b.tif",
+            "20240126_110404_76_247b_3B_AnalyticMS_SR_8b.tif",
+            "20240126_101916_21_24b0_3B_AnalyticMS_SR_8b.tif",
+            "20240126_101542_55_24b5_3B_AnalyticMS_SR_8b.tif",
+            "20240126_110408_71_247b_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC08_L2SP_201024_20230915_20230925_02_T1"
+        ]
+    },
+    "ROI_28": {
+        "Sentinel2": [
+            "S2A_MSIL2A_20230909T103631_N0509_R008_T32ULB_20230909T155201.SAFE"
+        ],
+        "SuperDove": [
+            "20230909_094344_44_24b6_3B_AnalyticMS_SR_8b.tif",
+            "20230909_094337_54_24b6_3B_AnalyticMS_SR_8b.tif",
+            "20230909_094332_94_24b6_3B_AnalyticMS_SR_8b.tif",
+            "20230909_094339_84_24b6_3B_AnalyticMS_SR_8b.tif",
+            "20230909_101737_79_247f_3B_AnalyticMS_SR_8b.tif",
+            "20230909_094335_24_24b6_3B_AnalyticMS_SR_8b.tif",
+            "20230909_094330_64_24b6_3B_AnalyticMS_SR_8b.tif",
+            "20230909_094342_14_24b6_3B_AnalyticMS_SR_8b.tif"
+        ],
+        "Landsat": [
+            "LC08_L2SP_196025_20230811_20230818_02_T1"
+        ]
+    }
+}
