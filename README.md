@@ -46,7 +46,7 @@ Parts of the satellite data for pre-training is unfortunately not granted with a
 ... } 
 ```
 
-We opt for constant 5m pixel spacing along all data no matter the original sensor resolution. Data is saved in patches of 288x288 pixels and stored in 3 separate folders indicating the sensor name with filenames indicating the image resolution and  pixel spacing. Instead of  performing the downsampling operation on the fly in the data-loader (computational expensive operation) we save all different resolutions to the drive which leads to much faster model training.
+We opt for constant 5m pixel spacing along all data no matter the original sensor resolution. Data is saved in patches of 288x288 pixels and stored in 3 separate folders indicating the sensor name with filenames indicating the image resolution and  pixel spacing. Instead of  performing the downsampling operation on the fly in the data-loader (computationally expensive operation), we save all different resolutions to the drive which leads to much faster model training.
 
 ```
 ├───patches
@@ -82,7 +82,7 @@ Modifications of this structure are ofc possible but require according modificat
 
 ## Model
 
-The main model is a modified vision transformer where the main contribution is given by the sensor parameter encoding module. Self-supervised pre-training is conducted with the mask autoencoder strategy. The model parameter can be taken from the config files:
+The main model is a modified vision transformer where the main contribution is given by the sensor parameter encoding module. Self-supervised pre-training is conducted using the mask autoencoder strategy. The model parameter can be taken from the config files:
 
 ```yaml
 model:
@@ -120,9 +120,9 @@ model:
 
 
 
-Most impotently an inactive `sensor parameter encoding module` either in the encoder or decoder part must be replaced by 3d positional embeddings (compare configs or manuscript). 
+Most importantly an inactive `sensor parameter encoding module` either in the encoder or decoder part must be replaced by 3d positional embeddings (compare configs or manuscript). 
 
-The responsefunctions used in the `sensor parameter encoding module` can be found under `./responsefunctions` and are taken from [here](https://support.planet.com/hc/en-us/articles/360014290293-Do-you-provide-Relative-Spectral-Response-Curves-RSRs-for-your-satellites), [here](https://sentinels.copernicus.eu/web/sentinel/document-library/latest-documents/-/asset_publisher/EgUy8pfXboLO/content/sentinel-2a-spectral-responses;jsessionid=6F22D73101A6E4ABB84D95FF35A40A42.jvm1?redirect=https%3A%2F%2Fsentinels.copernicus.eu%2Fweb%2Fsentinel%2Fdocument-library%2Flatest-documents%3Bjsessionid%3D6F22D73101A6E4ABB84D95FF35A40A42.jvm1%3Fp_p_id%3D101_INSTANCE_EgUy8pfXboLO%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_pos%3D1%26p_p_col_count%3D2) and [here](https://landsat.gsfc.nasa.gov/satellites/landsat-8/spacecraft-instruments/operational-land-imager/spectral-response-of-the-operational-land-imager-in-band-band-average-relative-spectral-response/).
+The spectral responsefunctions used in the `sensor parameter encoding module` can be found under `./responsefunctions` and are taken from [here](https://support.planet.com/hc/en-us/articles/360014290293-Do-you-provide-Relative-Spectral-Response-Curves-RSRs-for-your-satellites), [here](https://sentinels.copernicus.eu/web/sentinel/document-library/latest-documents/-/asset_publisher/EgUy8pfXboLO/content/sentinel-2a-spectral-responses;jsessionid=6F22D73101A6E4ABB84D95FF35A40A42.jvm1?redirect=https%3A%2F%2Fsentinels.copernicus.eu%2Fweb%2Fsentinel%2Fdocument-library%2Flatest-documents%3Bjsessionid%3D6F22D73101A6E4ABB84D95FF35A40A42.jvm1%3Fp_p_id%3D101_INSTANCE_EgUy8pfXboLO%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_pos%3D1%26p_p_col_count%3D2) and [here](https://landsat.gsfc.nasa.gov/satellites/landsat-8/spacecraft-instruments/operational-land-imager/spectral-response-of-the-operational-land-imager-in-band-band-average-relative-spectral-response/).
 
 
 
