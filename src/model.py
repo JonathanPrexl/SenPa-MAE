@@ -49,7 +49,7 @@ class SensorParameterEncoding_GSD(torch.nn.Module):
 class Encoder(torch.nn.Module):
 
     """
-    Encoder class for processing images into patch tokens wutg.
+    Encoder class for processing images into patch tokens.
 
     Args:
         image_size (int): Size of the input image (assumed to be square).
