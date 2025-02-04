@@ -71,10 +71,15 @@ class PatchShuffle(torch.nn.Module):
         return patches, forward_indexes, backward_indexes
 
 class DummyShuffle(torch.nn.Module):
-    def __init__(self):
+    def __init__(self,
+                 image_size,
+                 num_channels,
+                 patch_size,
+                 masking_ratio,
+                 maskingStategy) -> None:
         super().__init__()
     def forward(self, patches : torch.Tensor): 
-        return patches, torch.zeros(1), torch.zeros(1), torch.zeros(1)
+        return patches, torch.zeros(1), torch.zeros(1)
     
 if __name__ == "__main__":
     PS = PatchShuffle(128,10,16,75,"random")
