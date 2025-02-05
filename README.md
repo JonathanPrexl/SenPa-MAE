@@ -154,5 +154,5 @@ python main.py --config-name="senpamae_doubleParameterEmbedding"
 for the `SenPaMAE` model.
 
 ## Checkpoints
-Three of the checkpoints (according to the three configs) are provided in the weights folder. A script for how to load the weights into the encoder is provided under `src/load_model_checkpoint`.
+Three of the checkpoints (according to the three configs) are provided [here](https://drive.google.com/drive/folders/1RAhL5vAxunTkKluJt5CBSyNi1b-2TQdw?usp=drive_link) . A script for how to load the weights into the encoder is provided under `src/inferernce/load_model_checkpoint`.
 
