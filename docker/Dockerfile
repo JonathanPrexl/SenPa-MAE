@@ -14,7 +14,7 @@ RUN pip install jupyter
 RUN pip install matplotlib
 RUN pip install tqdm
 RUN pip install tensorboard
-RUN pip install sklearn
+RUN pip install scikit-learn
 RUN pip install scikit-image
 RUN pip install easydict
 RUN pip install tensorboardX
